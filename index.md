@@ -1,10 +1,8 @@
 ---
 layout: home
 ---
-# About Theme
+# About mevey
 
-This theme is Jekyll port of [vangeltzo.com](http://vangeltzo.com/) (by [Vangelis Tzortzis](https://github.com/srekoble)).
+I am a software engineer with interest in Human Computer Interaction, Social Science and Collective Intelligence.
 
-To learn how to install and use this theme check out the [installation guide](http://taylantatli.me/Halve/halve-theme/) for more information.
-
-If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/TaylanTatli/Halve/issues/new).
+When not tanning in front of a computer screen, I am an avid reader and a dog person.
