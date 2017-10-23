@@ -1,23 +1,85 @@
-# Halve  [![Donate](https://img.shields.io/badge/paypal-donate-blue.svg)](https://www.paypal.me/taylantatli/0usd)
+# 🤸‍ – A Blog Theme for Jekyll
+Cartwheel is a blog theme for Jekyll built using HTML, Sass, and jQuery. External stylesheets and libraries included are Google Fonts, Font Awesome, Normalize.CSS, Instafetch.js, Owl Carousel 2, Smooth Scroll, and WOW.js.
 
-This theme is Jekyll port of [vangeltzo.com](http://vangeltzo.com/) (by [Vangelis Tzortzis](https://github.com/srekoble)).
+## Installation
+All dependencies are saved in the ````Gemfile````. Run ````bundle install```` (Install [Bundler](http://bundler.io/) if it is not already).
 
-To learn how to install and use this theme check out the [installation guide](http://taylantatli.me/Halve/halve-theme/) for more information.
+## Edit Theme
+I made everything as easy as possible to edit. Most things can be found in the ````_config.yml````, but if more editing is required digging through the code will be required. The ````head.html```` file is in the ````_includes```` folder and the Sass variables are found in the ````_base.scss```` file in the ````_sass```` folder.
 
-If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/TaylanTatli/Halve/issues/new).
+### _config.yml
 
-## Preview   
-![screenshot of Halve](/images/halve-home-image.png)
+#### Site Settings
+    baseurl: ""
 
-See a [live version of Halve](http://taylantatli.github.io/Halve) hosted on GitHub.
+* ````baseurl```` - Path of blog if adding this on to another website
 
-# Credits
-- Original Work: [Vangelis Tzortzis](https://github.com/srekoble)  
-- Sample Posts and some code examples: [Michael Rose](https://github.com/mmistakes/)
-- Images: [Unsplash](https://unsplash.com/) and [Lorem Pixel](http://lorempixel.com)
+#### Color Settings
+    color_alpha: feeaeb
+    color_beta: 05009e
 
-### Others
-- [Jekyll](http://jekyllrb.com/)
-- [jQuery](http://jquery.com/)
-- [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/)
-- [FitVids.JS](http://fitvidsjs.com/)
+* ````color_alpha```` - Main color
+* ````color_beta```` - Secondary color
+
+#### Google Analytics
+    google_analytics: UA—XXXXXXXX-X
+
+* ````google_analytics```` - Option field to replace with correct Google Analytics code
+
+#### Instagram API
+    instagram_key: 
+    instagram_caption: 
+
+* ````instagram_key```` - See [Instafetch.js docs](http://thomasvaeth.com/instafetch.js/) for API key information
+* ````instagram_caption```` - true or false to display Instagram captions
+
+#### SEO Settings
+    title: 
+    description: 
+    url: ""
+    email:
+    twitter_username: 
+    default_img: 
+
+* ````title```` - Title of blog
+* ````description```` - Description of blog (recommended to not go over 160 characters)
+* ````url```` - URL of main website
+* ````email```` - Email address
+* ````twitter_username```` - Twitter username
+* ````default_img```` - Image that will appear when posting links on social networks
+
+#### Profile Settings
+    name:  
+    social:
+      github: 
+
+* ````name```` - Full name for SEO purposes
+* ````social```` - List of social networks for icons in the contact card and the footer ([Font Awesome](http://fontawesome.io/) is used, so only match the name of the icon, but do not include ````fa-````)
+
+
+#### Build Settings
+    exclude: ["node_modules", "gulpfile.js", "assets/js/app.js", "README.md", "Gemfile", "Gemfile.lock"]
+    permalink: /:year/:month/:day/:title/
+
+* ````include```` - Folders that are not automatically included in Jekyll
+* ````exclude```` - Folders that are excluded from `_site`
+* ````permalink```` - URL structure of blog posts
+
+### _posts
+    ---
+    layout: post
+    title: ""
+    date: 
+    categories:
+    description: 
+    image: 
+    image-sm:
+    ---
+
+This is the YAML front matter block for blog posts.
+* ````layout```` - This field will always be post
+* ````title```` - The title of the blog post
+* ````date```` - The date that will appear on the blog post
+* ````tags```` - Optional field that can be entered as an array or a list
+* ````description```` - Optional field for SEO (recommended to not go over 160 characters)
+* ````image```` - The blog theme was designed for 2000x1200px images (optimize your images because this is a picture heavy theme)
