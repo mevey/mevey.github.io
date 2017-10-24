@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Unicorn Pabst"
-date: 2017-02-11
-categories: 
-description: 
-image: /assets/images/placeholders/placeholder-8.jpg
+title: "mSurvey NPS product"
+date: 2017-06-11
+categories:
+description:
+image: /assets/images/nps.png
 ---
 Poke bespoke cred pug la croix. Celiac photo booth stumptown asymmetrical selvage. Hoodie poke skateboard polaroid pork belly vexillologist. Disrupt air plant 8-bit blog, man braid austin cliche. Migas intelligentsia tofu, viral butcher succulents cronut raw denim gochujang paleo pok pok tilde try-hard lomo. You probably haven't heard of them bicycle rights cray, jianbing post-ironic wayfarers before they sold out tofu. Chambray post-ironic kickstarter, swag umami ugh synth sustainable slow-carb gochujang.
 
