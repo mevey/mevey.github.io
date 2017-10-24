@@ -1,5 +1,5 @@
 # Site settings
-baseurl: "" 
+baseurl: ""
 
 # Color settings (Hex value without #)
 color_alpha: feeaeb
@@ -9,20 +9,20 @@ color_beta: 05009e
 google_analytics: UA—XXXXXXXX-X
 
 # Instagram API
-instagram_key: 
+instagram_key:
 instagram_caption: true
 
 # SEO settings
-title: Cartwheel
-description: 
+title: mevey
+description:
 url: ""
-email:
-twitter_username: 
-default_img: 
+email:evelyn@ischool.berkeley.edu
+twitter_username: muthonieve
+default_img:
 
 # Profile settings
 social:
-  twitter: 
+  twitter:
 
 # Build settings
 exclude: ["node_modules", "gulpfile.js", "assets/js/app.js", "README.md", "Gemfile", "Gemfile.lock"]
