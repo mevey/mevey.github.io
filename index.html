@@ -3,14 +3,14 @@ layout: default
 ---
 <section class="mast">
   <header class="mast__header">
-    <h1>Holly Gibney</h1>
-    <span>Freelance Designer and Photographer</span>
+    <h1>Evelyn Mwangi</h1>
+    <span>UI/UX Engineer</span>
   </header>
   <div class="mast__img bg-grey">
-    <div class="absolute-bg" style="background-image: url('/assets/images/mast-left.jpg');"></div>
+    <div class="absolute-bg" style="background-image: url('/assets/images/me.jpg');"></div>
   </div>
   <div class="mast__img bg-alpha">
-    <div class="absolute-bg" style="background-image: url('/assets/images/mast-right.jpg');"></div>
+    <div class="absolute-bg" style="background-image: url('/assets/images/sa.jpg');"></div>
   </div>
 </section>
 
@@ -18,38 +18,17 @@ layout: default
   <div class="grid">
     <h1 class="section-header">About</h1>
     <div class="about">
-      <p class="about__text wow fadeInUp" data-wow-delay="300ms">Fixie quinoa hot chicken, 8-bit tousled jianbing portland yr truffaut beard. Dreamcatcher ethical brunch authentic kale chips. Hell of raclette tumblr, organic kinfolk locavore occupy gastropub pinterest. Ramps squid la croix, chicharrones gochujang fixie try-hard bitters.</p>
+      <p class="about__text wow fadeInUp" data-wow-delay="300ms">
+        Hello, I am Eve.
+      </p>
     </div>
     <div id="instafetch" class="container-triple"></div>
   </div>
 </section>
 
-<section id="portfolio" class="section-padding bg-alpha">
-  <div class="grid--double">
-    <h1 class="section-header">Portfolio</h1>
-    <div class="portfolio-carousel owl-carousel wow fadeIn">
-      <div>
-        <figure>
-          <img src="/assets/images/portfolio-1.png" alt="Portfolio Item"/>
-        </figure>
-      </div>
-      <div>
-        <figure>
-          <img src="/assets/images/portfolio-2.png" alt="Portfolio Item"/>
-        </figure>
-      </div>
-      <div>
-        <figure>
-          <img src="/assets/images/portfolio-3.png" alt="Portfolio Item"/>
-        </figure>
-      </div>
-    </div>
-  </div>
-</section>
-
 <section id="blog" class="section-padding bg-white">
   <div class="grid">
-    <h1 class="section-header">Blog</h1>
+    <h1 class="section-header">My Work</h1>
     <ul class="container-double" itemscope itemtype="http://schema.org/Blog">
       {% for post in site.posts limit:6 %}
         <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
@@ -68,14 +47,5 @@ layout: default
         </li>
       {% endfor %}
     </ul>
-
-    <div class="container-btn">
-      <a class="btn" href="/archive">
-        <div>
-          <span>Read More</span>
-          <span>Read More</span>
-        </div>
-      </a>
-    </div>
   </div>
 </section>
